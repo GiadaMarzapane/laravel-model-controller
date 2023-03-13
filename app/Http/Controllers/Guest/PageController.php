@@ -20,6 +20,7 @@ class PageController extends Controller
     }
     public function show($id) {
         $movie= Movie::find($id);
-        dd($movie);
+        // dd($movie);
+        return view('movie', compact('movie'));
     }
 }

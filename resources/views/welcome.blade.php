@@ -21,7 +21,7 @@
                                 <h6 class="card-subtitle mb-2 text-muted">Original title: {{ $element->original_title }}</h6>
                                 <p class="card-text">Date of release: {{ $element->date }}</p>
                                 <p class="card-text">Vote: {{ $element->vote }}</p>
-                                <a href="#" class="btn btn-primary">Movie details</a>
+                                <a href="{{ route('SingleMovie', $element->id) }}" class="btn btn-primary">Movie details</a>
                             </div>
                         </div>
                         @endforeach

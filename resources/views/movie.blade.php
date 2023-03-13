@@ -9,11 +9,15 @@
         <title>Laravel Model Controller</title>
     </head>
     <body>
-        <h1 class="text-center">Laravel Model Controller</h1>
+        <h1 class="text-center">Single Movie</h1>
         <div class="container">
             <div class="row">
                 <div class="col">
-                    
+                    <div>
+                        <img style="height: 300px; width: 200px" src="{{ $movie->img_path }}" alt="">
+                    </div>
+                    <h3>{{ $movie->title }}</h3>
+                    <p>Vote: {{ $movie->vote }}</p>
                 </div>
             </div>
         </div>
