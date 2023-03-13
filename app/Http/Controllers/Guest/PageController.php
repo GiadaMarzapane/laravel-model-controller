@@ -13,6 +13,9 @@ class PageController extends Controller
 {
     public function index () {
         $movies= Movie::all();
+        // prova dd per importazione corretta database
+        dd($movies);
+
     return view('welcome', compact('movies'));
 }
 }
