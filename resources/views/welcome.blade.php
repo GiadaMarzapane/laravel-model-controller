@@ -9,7 +9,7 @@
         <title>Laravel Model Controller</title>
     </head>
     <body>
-        <h1>Laravel Model Controller</h1>
+        <h1 class="text-center">Laravel Model Controller</h1>
         <div class="container">
             <div class="row">
                 <div class="col">
@@ -21,7 +21,7 @@
                                 <h6 class="card-subtitle mb-2 text-muted">Original title: {{ $element->original_title }}</h6>
                                 <p class="card-text">Date of release: {{ $element->date }}</p>
                                 <p class="card-text">Vote: {{ $element->vote }}</p>
-                                {{-- <a href="#" class="card-link">Card link</a> --}}
+                                <a href="#" class="btn btn-primary">Movie details</a>
                             </div>
                         </div>
                         @endforeach

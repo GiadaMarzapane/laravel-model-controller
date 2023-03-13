@@ -16,6 +16,10 @@ class PageController extends Controller
         // // prova dd per importazione corretta database
         // dd($movies);
 
-    return view('welcome', compact('movies'));
-}
+        return view('welcome', compact('movies'));
+    }
+    public function show($id) {
+        $movie= Movie::find($id);
+        dd($movie);
+    }
 }
