@@ -9,6 +9,8 @@
         <title>Laravel Model Controller</title>
     </head>
     <body>
+        <h1>Laravel Model Controller</h1>
+
         
     </body>
 </html>
